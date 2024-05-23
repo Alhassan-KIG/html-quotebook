@@ -1,0 +1,63 @@
+header {
+  padding: 15px;
+  background-color: rgb(143, 5, 5);
+  color: white;
+  font-size: 45px;
+  border: solid rgb(143, 5, 5);
+}
+
+main {
+  margin: 0px;
+}
+
+@font-face {
+  font-family: "LibreBaskerville-Italic";
+  src: url("LibreBaskerville-Italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Quicksand-VariableFont_wght";
+  src: url("Quicksand-VariableFont_wght.ttf") format("truetype");
+}
+
+h1 {
+  font-family: "LibreBaskerville-Italic";
+  text-align: center;
+}
+
+ul {
+  justify-content: center;
+  margin-right: 300px;
+  margin-left: 300px;
+}
+
+p {
+  font-family: "Quicksand-VariableFont_wght";
+  padding: 20px;
+  font-style: normal;
+}
+
+topquotes {
+  display: block;
+  border: solid rgb(118, 211, 206);
+  text-align: end;
+  margin: 10px;
+  font-style: italic;
+  background-color: rgb(118, 211, 206);
+}
+
+bottomquotes {
+  display: block;
+  border: solid skyblue;
+  text-align: end;
+  margin: 10px;
+  font-style: italic;
+  background-color: skyblue;
+}
+
+@media (max-width: 768px) {
+  ul {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
